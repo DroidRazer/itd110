@@ -32,12 +32,12 @@ color:white;
 }
 #ENDBUTTON {
   border: 2px solid LightGray;
-  background-color:White;
+  background-color: #c6ebd6;
   border-radius:0px 15px 15px 0px;
 }
 #BUTTON {
   border: 2px solid LightGray;
-  background-color:White;
+  background-color: #c6ebd6;
   border-radius:15px;
 }
 a:link {
@@ -49,4 +49,7 @@ a:link {
 a:hover {
   color: MediumSeaGreen;
   box-shadow: 0px 5px 5px LightGray;
+}
+a:visited {
+  color: black;
 }
