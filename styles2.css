@@ -1,3 +1,27 @@
+#HEADER2 {
+font-family:sans-serif;
+
+color:Black;
+
+padding:20px 30px;
+
+margin:10px -20px;
+
+border:2px solid LightGray;
+
+font-size:30px;
+
+background-color:White;
+
+background:url(websitebackground.png) center;
+
+background-size:cover;
+
+background-repeat:no-repeat;
+
+background-size: 200px 0px 1000px;
+
+}
 body {
 background-image: url("../grass.png");
 background-repeat:no-repeat;
