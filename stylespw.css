@@ -68,6 +68,7 @@ color:white;
 #BUTTON {
   border: 2px solid LightGray;
   background-color: #c6ebd6;
+  text-decoration:none;
   border-radius:15px;
 }
 a:link {

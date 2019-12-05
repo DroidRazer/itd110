@@ -11,7 +11,6 @@ password = prompt("Enter password(It's 12345):");
 if (password == 12345 && SoftLocked == false) {
 alert("ACCESS GRANTED");
 IsCorrect = true;
-alert("WELCOME, USER.");
 } else {
 alert("ACCESS DENIED");
 tries = tries + 1;
