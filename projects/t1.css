@@ -2,3 +2,9 @@ body {
 color:#2C2F33;
 }
 
+#BASE {
+background-color:#FFFFFF;
+color:#FFFFFF;
+border-bottom: 4px solid #7289DA;
+border-top: 4px solid #7289DA;
+}
