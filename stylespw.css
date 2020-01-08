@@ -19,8 +19,9 @@ background-size:cover;
 
 background-repeat:no-repeat;
 
-background-size:200px 0px 1000px;
+background-size:200px 1000px;
 }
+
 body {
 background-image: url("../grass.png");
 background-repeat:no-repeat;
