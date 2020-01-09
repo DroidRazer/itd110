@@ -65,7 +65,7 @@ color:white;
   background-color: #c6ebd6;
   border-radius:0px 15px 15px 0px;
 }
-#BUTTON {
+.button {
   border: 2px solid LightGray;
   background-color: #c6ebd6;
   border-radius:15px;
