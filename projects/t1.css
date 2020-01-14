@@ -2,9 +2,26 @@ body {
 color:#2C2F33;
 }
 
-#BASE {
+.Base {
 background-color:#FFFFFF;
 color:#FFFFFF;
-border-bottom: 4px solid #7289DA;
-border-top: 4px solid #7289DA;
+font-family:Sans-serif;
 }
+
+.Base2 {
+background-color:#FFFFFF;
+color:#FFFFFF;
+font-family:Sans-serif;
+position:absolute;
+z-index:-1;
+}
+
+.Base3 {
+background-color:Gray;
+opacity: 0.5;
+color:Gray;
+font-family:Sans-serif;
+}
+
+.Posts {
+border: 4px solid Black;
