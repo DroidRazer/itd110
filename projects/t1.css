@@ -22,6 +22,48 @@ opacity: 0.5;
 color:Gray;
 font-family:Sans-serif;
 }
-
-.Posts {
-border: 4px solid Black;
+.Text {
+font-family:Sans-serif;
+color:white;
+}
+.PostTitle {
+padding:20px;
+padding-left:950px;
+padding-right:0px;
+position:absolute;
+margin:0px 20px;
+border-bottom: 4px solid #23272A;
+border-radius:30px;
+z-index:0;
+background-color:#FFFFFF;
+color:#FFFFFF;
+font-family:Sans-serif;
+overflow:hidden;
+}
+.PostBody {
+margin:20px;
+border-bottom:4px solid #23272A;
+border-radius:30px;
+position:absolute;
+height:200px;
+width:950px;
+z-index:0;
+background-color:#FFFFFF;
+color:#FFFFFF;
+font-family:Sans-serif;
+overflow:hidden;
+}
+.PostTText {
+color:Black;
+position:absolute;
+z-index:3;
+margin:5px 40px;
+font-family:Sans-serif;
+}
+.PostBText {
+color:Black;
+position:absolute;
+z-index:3;
+margin:40px 40px;
+font-family:Sans-serif;
+}
