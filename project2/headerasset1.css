@@ -1,0 +1,36 @@
+ .BubbleS {
+height:30px;
+width:30px;
+border-radius:30px 30px 30px 30px;
+background-color:#D2B48C;
+position:sticky;
+top:0;
+}
+
+ .BubbleM {
+height:60px;
+width:60px;
+border-radius:30px 30px 30px 30px;
+background-color:#D2B48C;
+}
+
+ .BubbleL {
+height:80px;
+width:80px;
+border-radius:60px 60px 60px 60px;
+background-color:#D2B48C;
+}
+
+ .BubbleXL {
+height:100px;
+width:100px;
+border-radius:60px 60px 60px 60px;
+background-color:#D2B48C;
+}
+
+ .BubbleMain {
+height:300px;
+width:300px;
+border-radius:200px 200px 200px 200px;
+background-color:#D2B48C;
+}
