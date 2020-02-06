@@ -1,66 +1,96 @@
 body {
-background-color:#87CEEB;
-background-image: url("Pic1.jpeg");
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-}
+background-color:white;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed; 
+}  
 
 .Title {
-margin:10px;
 position:fixed;
+font-size:2vw;
 }
+
+.Title2 {
+position:fixed;
+font-size:1.8vw;
+}
+
 
 .Box2 {
 position:fixed;
 padding-bottom:50px;
-padding-top:30px;
+padding-top:20px;
 padding-left:1450px;
 margin-left:-20px;
-top:70px;
-background-color:#EEE8AA;
-border: 2px solid White;
+top:0px;
+background-color: #F1DD93;
+z-index:-10;
 }
 
 .Box3 {
 position:fixed;
-padding-bottom:50px;
+padding-bottom:10px;
 padding-top:30px;
 padding-left:1450px;
 margin-left:-20px;
-top:-14px;
-background-color:White;
-border: 2px solid White;
+top:70px;
+background-color:#E5BF37;
 z-index:-2;
 opacity:0.6;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.Imageblock {
+height:190px;
+width:190px;
+position:absolute;
+top:220px;
+left:420px;
+z-index:-3;
+background-color:Gray;
+opacity:0.8;
+}
+
+.Mainblock:hover {
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.Mainblock {
+height:400px;
+width:900px;
+position:absolute;
+top:200px;
+left:400px;
+z-index:-4;
+background-color:#FBF6E4;
+opacity:0.8;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
 }
 
 ul {
-  width:1200px;
   list-style-type: none;
   padding-left: 0px;
   padding-right: 0px;
-  background-color: Gold;
+  background-color:#30290E;
   opacity:0.8;
-  margin-left:-100px;
+  text-align: center;
+}
+
+li:hover {
+box-shadow: 30px 0px 20px 0px rgba(255,255,0,0.5);
 }
 
 li a {
   display: block;
-  color: black;
-  text-align: center;
+  color: #E5BF37;
   font-size:20px;
-  padding: 20px 40px;
-  text-decoration: none;
+  padding: 10px 30px;
   font-family:'Roboto Slab', serif;
-  top:100px;
-  border-right: 1px solid #DAA520;
-  border-left: 1px solid #DAA520;
+  width:239px;
+  border-bottom: 1px solid #8FBC8F;
 }
 
-li {
-float:left;
-}
 
 li:last-child {
 border-right:none;
@@ -71,8 +101,6 @@ border-left:none;
 }
 
 li a:hover {
-  text-decoration:underline;
-  padding-bottom: 30px;
-  background-color:#FAFAD2;
-  border-left: 1px solid #DAA520;
+  padding-right: 30px;
+  background-color: #FBF6E4;
 }

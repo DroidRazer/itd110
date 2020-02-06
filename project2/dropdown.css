@@ -5,11 +5,11 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #FAFAD2;
+  background-color: #FBF6E4;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
-  margin:72px 240px;
+  margin:-67px 301px;
+  z-index:7;
 }
 
 .dropdown:hover .dropdown-content {
@@ -18,6 +18,11 @@
 }
 
 a:link {
-color:black;
+text-align:bottom;
+color:#E5BF37;
 text-decoration:none;
+}
+
+a:hover {
+text-decoration:underline;
 }
