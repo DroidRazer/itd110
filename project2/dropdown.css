@@ -14,12 +14,10 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
-  color:Black;
 }
 
 a:link {
 text-align:bottom;
-color:#E5BF37;
 text-decoration:none;
 }
 

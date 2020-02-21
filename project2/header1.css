@@ -1,19 +1,28 @@
 body {
-background-color:white;
+background-color:#EEF8E3;
+color:#7FBD32;
+font-family:'Quicksand',serif;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
-  background-attachment: fixed; 
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }  
+
+li a {
+color:#093426;
+}
 
 .Title {
 position:fixed;
-font-size:2vw;
+font-size:30px;
+color:#1A3E4C;
 }
 
 .Title2 {
 position:fixed;
-font-size:1.8vw;
+font-size:15px;
+color:#092834;
 }
 
 
@@ -24,7 +33,7 @@ padding-top:20px;
 padding-left:1450px;
 margin-left:-20px;
 top:0px;
-background-color: #F1DD93;
+background-color:#7FBD32;
 z-index:-10;
 }
 
@@ -35,21 +44,34 @@ padding-top:30px;
 padding-left:1450px;
 margin-left:-20px;
 top:70px;
-background-color:#E5BF37;
+background-color:#F3F7D4;
 z-index:-2;
 opacity:0.6;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 }
 
-.Imageblock {
-height:190px;
-width:190px;
-position:absolute;
-top:220px;
-left:420px;
-z-index:-3;
-background-color:Gray;
-opacity:0.8;
+.Bar1 {
+list-style-type:none;
+position:fixed;
+top:70px;
+left:300px;
+width:100%;
+background-color:#CBE432;
+text-align:center;
+padding:0px 0px;
+}
+
+.Bar1 a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Bar1 a:hover {
+  background: white;
+  color: black;
 }
 
 .Mainblock:hover {
@@ -57,10 +79,10 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 }
 
 .Mainblock {
-height:400px;
+height:150px;
 width:900px;
 position:absolute;
-top:200px;
+top:140px;
 left:400px;
 z-index:-4;
 background-color:#FBF6E4;
@@ -68,39 +90,29 @@ opacity:0.8;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
 }
 
-ul {
+.Mainblock2 {
+height:350px;
+width:900px;
+position:absolute;
+top:320px;
+left:400px;
+z-index:-4;
+background-color:#FBF6E4;
+opacity:0.8;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+.UL1 {
   list-style-type: none;
   padding-left: 0px;
   padding-right: 0px;
-  background-color:#30290E;
+  background-color: #66B032;
   opacity:0.8;
   text-align: center;
+  width:300px;
 }
 
-li:hover {
-box-shadow: 30px 0px 20px 0px rgba(255,255,0,0.5);
-}
-
-li a {
-  display: block;
-  color: #E5BF37;
-  font-size:20px;
-  padding: 10px 30px;
-  font-family:'Roboto Slab', serif;
-  width:239px;
-  border-bottom: 1px solid #8FBC8F;
-}
-
-
-li:last-child {
-border-right:none;
-}
-
-li:first-child {
-border-left:none;
-}
-
-li a:hover {
-  padding-right: 30px;
-  background-color: #FBF6E4;
+.LI1 {
+padding:14px 100px;
+border-bottom: 1px solid black;
 }
