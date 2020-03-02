@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 1000px; 1000px;
-  background-color: #EEE8AA;
+  background-color: LightGray;
 }
 
 @keyframes textgen {
@@ -13,7 +13,7 @@ body {
 
 @keyframes frame1 {
   from {opacity:1;width:0%;padding:1px 0px;background-color:Black;}
-  to {width:99%;padding:1px 0px;background-color:DarkRed;}
+  to {width:84%;padding:1px 0px;background-color:DarkRed;}
 }
 
 @keyframes frame5 {
@@ -23,7 +23,8 @@ body {
 
 .box1 {
   position:absolute;
-  top:100px;
+  top:50px;
+  left:200px;
   background-color: Black;
   transform: rotate(0deg);
   animation-name:frame1;
@@ -35,7 +36,8 @@ body {
 .GenText {
   position:absolute;
   overflow:hidden;
-  top:50px;
+  top:0px;
+  left:200px;
   font-family:sans-Serif;
   width:100%;
   height:4%;
@@ -50,20 +52,11 @@ body {
 .GenText1 {
   position:absolute;
   overflow:hidden;
-  top:50px;
-  animation-name:textgen;
-  animation-duration: 4s;
-  animation-delay: 5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-.GenText2 {
-  position:absolute;
-  overflow:hidden;
   visibility:hidden;
   font-size:15px;
   height:2%;
+  left:200px;
+  top:45px;
   font-family:sans-Serif;
   animation-name:textgen;
   animation-duration: 5s;
@@ -72,17 +65,13 @@ body {
   animation-fill-mode: forwards;
 }
 
-.GenText3 {
-  position:absolute;
-  overflow:hidden;
-  visibility:hidden;
-  top:500px;
-  height:2%;
-  animation-name:textgen;
-  animation-duration: 5s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+.p1 {
+font-family:sans-Serif;
+text-align:center;
+width:190px;
+position:absolute;
+left:0px;
+top:100px;
 }
 
 .p3 {
@@ -93,4 +82,6 @@ top:-10px;
 font-size:30px;
 color:Black;
 }
+
+
 

@@ -1,0 +1,21 @@
+.ButtonType1 {
+width:190px;
+position:absolute;
+left:0px;
+}
+
+.ButtonType1 a {
+text-align:center;
+background-color: black;
+color:White;
+display:block;
+padding:2px 10px;
+font-family:sans-Serif;
+text-decoration:none;
+border-bottom: 1px solid darkgray;
+}
+
+a:hover {
+opacity:0.4;
+
+}
