@@ -1,5 +1,9 @@
 body {
 font-family:'Quicksand',serif;
+background-image: url("background.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
 }
 
 @keyframes frame1 {
@@ -14,12 +18,17 @@ to {padding:17px 50px;visibility:visible;opacity;0}
 
 @keyframes frame3 {
   from {height:0px;visiblity:hidden;background-color:black;}
-  to {height:70px;visibility:visible;background-color:#7FBD32;}
+  to {height:70px;visibility:visible;background-color:#00BFFF;}
 }
 
 @keyframes frame4 {
   from {width:0%;visiblity:hidden;background-color:black;}
-  to {width:154px;visibility:visible;background-color:#7FBD32;}
+  to {width:154px;visibility:visible;background-color:#D3D3D3;}
+}
+
+@keyframes frame5 {
+from {width:0;visibility:hidden;opacity:1}
+to {width:100px;visibility:visible;opacity;0}
 }
 
 .box1 {
@@ -27,7 +36,7 @@ to {padding:17px 50px;visibility:visible;opacity;0}
   top:70px;
   left:0px;
   height:30px;
-  max-width:46.2%;
+  max-width:50%;
   transform: rotate(0deg);
   z-index:-1;
   opacity:0.5;
@@ -68,11 +77,22 @@ to {padding:17px 50px;visibility:visible;opacity;0}
   visibility:hidden;
   overflow:hidden;
   animation-name:frame4;
-  animation-delay:1s;
+  animation-delay:0.3s;
   animation-duration: 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
+.box4 {
+  height:400px;
+  width:1000px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  background-color:White;
+  overflow:hidden;
+}
+
 
 li {
   float: left;
@@ -82,7 +102,7 @@ a {
   font-family:sans-Serif;
   text-decoration:none;
   display:inline;
-  background-color:#CBE432;
+  background-color:#FFFF00;
   color:black;
   visibility:hidden;
   animation-name:frame2;
@@ -90,6 +110,7 @@ a {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function:ease;
+  box-shadow: -2px 5px 5px grey;
 }
 
 ul {
@@ -98,3 +119,42 @@ ul {
   top:69px;
   right:0px;
 }
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 118px;
+  left: 0;
+  background-color: LightGray; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+  padding: 5px 5px 5px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  border-bottom:1px solid black;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  bottom:119px;
+  left:0px;
+  font-size: 36px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+

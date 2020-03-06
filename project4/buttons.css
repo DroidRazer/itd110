@@ -16,6 +16,5 @@ border-bottom: 1px solid darkgray;
 }
 
 a:hover {
-opacity:0.4;
-
+background-color:#FFD700;
 }
